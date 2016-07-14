@@ -1,0 +1,5 @@
+- UML Class Diagram à la racine de l'archive
+- 100% des exigences du sujet ont été implémentées et testées avec succès (NetBeans 8 / Glassfish 4.1 / MySQL 5.5 / Java 1.8 / Ubuntu 14)
+- Web Design: le site est intégralement responsive
+- JPA: la Data Source utilisée par notre PU est "SupSmsDs2"
+- JMS: la Destination Resource utilisée par notre service est "SupSmsJms" et sa Connection Factorie "SupSmsJmsFactory"

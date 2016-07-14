@@ -1,0 +1,61 @@
+/* FONT */
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Maven Pro Regular'), local('MavenProRegular'), url(../fonts/MavenProRegular.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Maven Pro Medium'), local('MavenProMedium'), url(../fonts/MavenProMedium.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Maven Pro Bold'), local('MavenProBold'), url(../fonts/MavenProBold.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Maven Pro Black'), local('MavenProBlack'), url(../fonts/MavenProBlack.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* GLOBAL */
+.text-align-right{
+    text-align: right;
+}
+.text-align-left{
+    text-align: left;
+}
+
+/* NAV */
+#main-top-navbar{
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-size: 1.2em;
+}
+#main-top-navbar .glyphicon{
+    font-size: 0.7em;
+    margin-right: 5px;
+}
+.navbar-brand{
+    font-size: 1.7em;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+}
+
+/* CONVERSATION */
+#conversation-message-list .msg{
+    width: 100%;
+}
+#conversation-message-list .msg hr{
+    border-style: dashed;
+}
